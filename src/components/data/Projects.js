@@ -1,10 +1,11 @@
 import Jungle from "./../../img/Jungle.jpg";
-import Books from "./../../img/Books.jpg";
+import Books from "./../../img/Books2.jpg";
 import Hotel from "./../../img/Hotel.jpg";
 import Marvel from "./../../img/Marvel.jpg";
 import News from "./../../img/News.jpg";
 import Shiny from "./../../img/Shiny.jpg";
 import Portfolio from "./../../img/Portfolio.jpg";
+import WorkInProgress from "./../../img/WorkInProgress.jpg";
 
 export const projects = {
     collaborations: [
@@ -61,14 +62,24 @@ export const projects = {
     ],
     personnalProjects: [
         {
+            name: "Alex Shop - Site ecommerce",
+            img: WorkInProgress,
+            live_demo_url: "https://alex-shop-blue.vercel.app/",
+            gitHub_url: "https://github.com/Forerunner78/alex-shop",
+            technologies: ["#nextJS", "#mongoDB", "#paypal"],
+            colSize: 12,
+            summary:
+                "Site web ecommerce construit en utilisant la technologie MERN (mongoDB, Express, React et Node.js). Les données sont stockées sur mongoDB. Il permet de simuler des achats au moyen de Paypal. En outre il possède un système d'authentification.",
+        },
+        {
             name: "Site web Portfolio",
             img: Portfolio,
             live_demo_url: "https://react-search-books-96687.firebaseapp.com/",
             gitHub_url: "https://github.com/Forerunner78/React-Books",
             technologies: ["#nextJS", "#tailwindcss", "#framer-motion"],
-            colSize: 12,
+            colSize: 6,
             summary:
-                "Site web portfolio créé en utilisant NextJS, framer-motion et TailwindCSS. Il est responsive, possède des animations et des transitions lorsque l'on change de page. Il répertorie tous les projets que j'ai pu mener.",
+                "Site web portfolio responsive créé en utilisant NextJS, framer-motion et TailwindCSS. Il possède des animations et des transitions. Il répertorie tous les projets que j'ai créés.",
         },
         {
             name: "Application de recherche de livres",
@@ -76,7 +87,7 @@ export const projects = {
             live_demo_url: "https://react-search-books-96687.firebaseapp.com/",
             gitHub_url: "https://github.com/Forerunner78/React-Books",
             technologies: ["#ReactJS", "#Redux", "#Bootstrap"],
-            colSize: 12,
+            colSize: 6,
             summary:
                 "Application créée en ReactJS. Elle permet de faire des recherches de livres en utilisant l'API Google et stocker ceux que l'on souhaite dans notre liste.",
         },

@@ -79,7 +79,7 @@ export const projects = {
             technologies: ["#nextJS", "#tailwindcss", "#framer-motion"],
             colSize: 6,
             summary:
-                "Site web portfolio créé en utilisant NextJS, framer-motion et TailwindCSS. Il est responsive, possède des animations et des transitions. Il répertorie tous les projets que j'ai pu mener.",
+                "Site web portfolio responsive créé en utilisant NextJS, framer-motion et TailwindCSS. Il possède des animations et des transitions. Il répertorie tous les projets que j'ai créés.",
         },
         {
             name: "Application de recherche de livres",
